@@ -1,4 +1,4 @@
-# P4-INST126
+# Project 4: College Admissions Calcualtor
 ## Group Members: Amanda Hernandez, Ryan Essem, Nnamdi Ede, Jim Chen
 ## Overview
 

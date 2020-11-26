@@ -1,4 +1,4 @@
-# Project 4: College Admissions Calcualtor
+# Project 4: College Admissions Calculator
 ## Group Members: Amanda Hernandez, Ryan Essem, Nnamdi Ede, Jim Chen
 ## Overview
 

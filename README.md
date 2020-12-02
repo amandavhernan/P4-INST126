@@ -10,23 +10,23 @@ Since the start of this project in late November, we have decided to deviate fro
 
 When a user first runs the program, they will be asked to input their GPA and SAT score. Then, their GPA and SAT score will be compared to several parameters that will ultimately decide if he student would be accepted, denied, waitlisted, or deferred to the University of Maryland. The following are the parameters in place: 
 
-# Accepted students must meet the following requirements: 
-GPA >= 3.0
-SAT >= 1250
+#### Accepted students must meet the following requirements: 
+* GPA >= 3.0
+* SAT >= 1250
 
-# Rejected students must meet the following requirements:
-GPA <= 2.7
-SAT <= 1100
+#### Rejected students must meet the following requirements:
+* GPA <= 2.7
+* SAT <= 1100
 
-# Waitlisted students must meet the following requirements: 
-GPA in range (2.7, 3.0)
-SAT in range (1100, 1250)
-Activities: == 4
+#### Waitlisted students must meet the following requirements: 
+* GPA in range (2.7, 3.0)
+* SAT in range (1100, 1250)
+* Activities: == 4
 
-# Deferred students must meet the following requirements:
-GPA in range (2.7, 3.0)
-SAT in range (1100, 1250)
-Activities: >= 5
+#### Deferred students must meet the following requirements:
+* GPA in range (2.7, 3.0)
+* SAT in range (1100, 1250)
+* Activities: >= 5
 
 The program will also read a text file that has the names, GPAs, SAT scores, and number of activities involved in of about 1,000 randomized students and determine whether those students will be accepted, rejected, waitlisted, or deferred by comparing their information to the paramaters defined above. 
 

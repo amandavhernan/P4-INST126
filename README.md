@@ -2,13 +2,37 @@
 ## Group Members: Amanda Hernandez, Ryan Essem, Nnamdi Ede, Jim Chen
 ## Overview
 
-This is our fourth and final project for INST126 at the University of Maryland, College Park. For this project, we were given free reign to develop a program that tackles a real world problem. And as a group, we decided to create a college admissions calculator. Although this program cannot take into account the human biases that occur throughout the college admissions process, it can take student GPAs and SAT scores and compare them to the average scores and GPAs of recently admitted freshmen to five different universities. We chose five colleges located in different parts of the country and each has a different acceptance rates to create a more well rounded program. 
+This is our fourth and final project for INST126 at the University of Maryland, College Park. For this project, we were given free reign to develop a program that tackles a real world problem. And as a group, we decided to create a college admissions calculator. Although this program cannot take into account the human biases that occur throughout the college admissions process, it can still provide students with a cohesive look at what factors are at stake during the admissions process. Overall, this program streamlines the ease of the college admissions process, helps relieve applicant stress, and allows for better planning and academic focus. 
 
-The need this project addresses is the opportunity for students to quickly filter through a list of colleges and eliminate colleges they would not likely be admitted to. This aids in relieving the headache in finding the right colleges to apply to and develops a general safety assurance for the student. The student will also be able to search the five universities implemented into the program and gauge if they are academically fit. Overall, this program streamlines the ease of the college admissions, helps relieve applicant stress, and allows for better planning and academic focus. 
+Since the start of this project in late November, we have decided to deviate from our original idea and create a program that takes the user’s input (GPA, SAT score) and returns whether they would be accepted, rejected, waitlisted, or deferred at the University of Maryland based on Maryland’s average GPA and SAT score of admitted students earlier this year. The program will also read a text file that has the names, GPAs, SAT scores, and number of activities involved in about 1,000 randomized students and determine whether those students will be accepted, rejected, waitlisted, or deferred by comparing their information to ranges we have created for each admission decision.
 
 ## How it works
 
-When a user first runs the program, they will be asked to input their GPA and SAT score. Then, the national and institutional data that was collected will be read from a text file. As the program runs, it is comparing the user's inputs to each institution's average GPAs and SAT scores from admitted students. At the end, the program will return/print an individualized ordered list of the colleges that the user has the best chance of getting into based on their specific GPA and SAT score. The program will generate the list based on which college’s admissions data most closely matches the user's SAT score and GPA. The college listed first will be the college the user has the greatest chance of getting into and the college listed last will be the college the user has the least chance of getting into based on similar GPAs and SAT scores. 
+When a user first runs the program, they will be asked to input their GPA and SAT score. Then, their GPA and SAT score will be compared to several parameters that will ultimately decide if he student would be accepted, denied, waitlisted, or deferred to the University of Maryland. The following are the parameters in place: 
+
+# Accepted students must meet the following requirements: 
+GPA >= 3.0
+SAT >= 1250
+
+# Rejected students must meet the following requirements:
+GPA <= 2.7
+SAT <= 1100
+
+# Waitlisted students must meet the following requirements: 
+GPA in range (2.7, 3.0)
+SAT in range (1100, 1250)
+Activities: == 4
+
+# Deferred students must meet the following requirements:
+GPA in range (2.7, 3.0)
+SAT in range (1100, 1250)
+Activities: >= 5
+
+The program will also read a text file that has the names, GPAs, SAT scores, and number of activities involved in of about 1,000 randomized students and determine whether those students will be accepted, rejected, waitlisted, or deferred by comparing their information to the paramaters defined above. 
+
+The program will then return four text files (one for each admission decision) with the names of students and their GPA, SAT, and the number of activities they’re involved in. The idea behind this is that it will help the user understand how they compare against other students. This gives it a bit of a more realistic element as well.
+
+Lastly, the program will also return a scatterplot with the data in the returned text files. This will also give the user an idea of the average GPAs and SATs that are accepted, rejected, waitlisted, and deferred. The x-axis of the scatterplot will be SAT scores while the y-axis will be GPAs. The plot will also be color coded so each admissions decision is represented by an easily identifiable color. 
 
 ## Update #1 (Nov. 25)
 

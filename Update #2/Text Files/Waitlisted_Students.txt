@@ -1,0 +1,21 @@
+Student Name, GPA, SAT, Activity
+Brittanie Crochet, 2.7, 1100, 4
+Russ Dalley, 3.0, 1250, 4
+Araceli Davies, 2.85, 1150, 4
+Roxy Bramhall, 2.92, 1100, 4
+Jenise Stengel, 2.75, 1170, 4
+Elna Willms, 3.0, 1175, 4
+Will Sluder, 2.8, 1200, 4
+Micheline Mathews, 1180, 4
+Katrice Hodder, 2.82, 1190, 4
+Landon Hayes, 2.9, 1140, 4
+Meryl Barrett, 2.74, 1190, 4
+Jermaine Lobato, 2.79, 1120, 4
+Dione Soltis, 2.79, 1190, 4
+Meridith Kamen, 2.97, 1100, 4
+Darla Logue, 3.0, 1240, 4
+Fairy Evers, 2.83, 1150, 4
+Shawn Melgoza, 2.73, 1160, 4
+Melodi Trinidad, 2.75, 1125, 4
+Hollis Bowland, 2.94, 1210, 4
+Aja Falkowski, 3.0, 1230, 4

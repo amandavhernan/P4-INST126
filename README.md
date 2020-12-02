@@ -21,12 +21,12 @@ When a user first runs the program, they will be asked to input their GPA and SA
 #### Waitlisted students must meet the following requirements: 
 * GPA in range (2.7, 3.0)
 * SAT in range (1100, 1250)
-* Activities: == 4
+* Activities == 4
 
 #### Deferred students must meet the following requirements:
 * GPA in range (2.7, 3.0)
 * SAT in range (1100, 1250)
-* Activities: >= 5
+* Activities >= 5
 
 The program will also read a text file that has the names, GPAs, SAT scores, and number of activities involved in of about 1,000 randomized students and determine whether those students will be accepted, rejected, waitlisted, or deferred by comparing their information to the paramaters defined above. 
 

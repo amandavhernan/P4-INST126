@@ -13,3 +13,7 @@ When a user first runs the program, they will be asked to input their GPA and SA
 ## Update #1 (Nov. 25)
 
 So far, we have collected the majority of the data that we need for this program. We are still looking for a national data set that contains high school student GPAs. We have also started experimenting with code and came up with code that can determine how many times a higher or equal GPA/SAT score appears in a data set compared to the GPA and SAT score entered by a user.
+
+## Update #2 (Dec. 2)
+
+After our last update, we decided to change how the code/overall project would be structured as well as what information it would return to the user. Initially, we wanted to create a program that would calculate a user’s chances of getting into five different schools based on only their GPA and SAT score. The program would then return an individualized rank (1-5) of the schools for the user. The ranking would have been based on how closely the user's GPA and SAT score matched the average GPAs and SAT scores of the five different universities. Instead of going forward with this plan, we wanted to create a more realistic and useful program for students which is explained in full above. We also updated our flowcharts to reflect the changes and designated sections of the code to each group member. 

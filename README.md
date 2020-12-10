@@ -34,6 +34,9 @@ Then, the program will also return a scatter plot that displays dots to represen
 
 The graphics will look like the ones displayed below: 
 
+![](images/scatter plot.png)
+![](images/histogram.png)
+
 ## Update #1 (Nov. 25)
 
 So far, we have collected the majority of the data that we need for this program. We are still looking for a national data set that contains high school student GPAs. We have also started experimenting with code and came up with code that can determine how many times a higher or equal GPA/SAT score appears in a data set compared to the GPA and SAT score entered by a user.

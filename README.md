@@ -34,8 +34,8 @@ Then, the program will also return a scatter plot that displays dots to represen
 
 The graphics will look like the ones displayed below: 
 
-![](images/scatter plot.png)
-![](images/histogram.png)
+![Scatter plot](images/scatter%20plot.png)
+![Histogram](images/histogram.png)
 
 ## Update #1 (Nov. 25)
 
